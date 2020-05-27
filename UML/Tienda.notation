@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_qkYjsKAsEeq51Nd1luIVpA" type="PapyrusUMLClassDiagram" name="DiagramaTienda" measurementUnit="Pixel">
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_qkYjsaAsEeq51Nd1luIVpA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_qkYjsqAsEeq51Nd1luIVpA"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_qkYjs6AsEeq51Nd1luIVpA" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+    <owner xmi:type="uml:Model" href="Tienda.uml#_hm65cKAsEeq51Nd1luIVpA"/>
+  </styles>
+  <element xmi:type="uml:Model" href="Tienda.uml#_hm65cKAsEeq51Nd1luIVpA"/>
+</notation:Diagram>
