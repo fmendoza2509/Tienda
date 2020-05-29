@@ -38,10 +38,15 @@ public class MainTienda {
         	System.out.println("5.- Para salir");
         	op=lector.nextInt();
         	switch (op) {
-			case 1:
-				Productos p1 = new Productos();
-				p1.LeerData();
-				if(tienda.Agregar(p1)) {System.out.println("Producto agregado correctamente");};
+			case 1://Caso para agregar algún producto
+				Productos p1 = new Productos();//Creamos ese producto
+				p1.LeerData();//Leemos los datos del producto
+				//Agregamos el producto y nos devuelve mensaje de confirmacion
+				if(tienda.Agregar(p1)) {//envia el mensaje si el producto se agrega
+					System.out.println("Producto agregado correctamente");
+				}else {//devuelve un mensaje si el producto ya existe, es decir no se agrego
+					System.out.println("El producto ya existe");
+				}
 			break;
 			case 2:
 			break;
