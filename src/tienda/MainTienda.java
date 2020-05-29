@@ -48,9 +48,23 @@ public class MainTienda {
 					System.out.println("El producto ya existe");
 				}
 			break;
-			case 2:
+			case 2://caso para eliminar un producto
+				Productos p2 = new Productos();
+				p2.LeerData();
+				if(tienda.Eliminar(p2)) {
+					System.out.println("Producto eliminado correctamente");
+				}else {
+					System.out.println("el producto no existe");
+				}
 			break;
-			case 3:
+			case 3://Caso para editar un producto
+				Productos p3 = new Productos();
+				p3.LeerData();
+				if(tienda.Editar(p3)) {
+					System.out.println("Producto editado satisfactoriamente");
+				}else {
+					System.out.println("el producto no existe");
+				}
 			break;
 			case 4:
 				tienda.Imprimir();
