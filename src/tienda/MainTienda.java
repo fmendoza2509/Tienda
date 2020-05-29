@@ -16,7 +16,7 @@ public class MainTienda {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    	int op,nProd;
+    	//int op,nProd;
         Productos p1 = new Productos();
         p1.LeerData();
         Producto tienda = new Producto(2);
