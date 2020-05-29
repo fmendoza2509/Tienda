@@ -9,7 +9,7 @@ public interface InterfaceProducto {
      ************************************/
     public int Tamano();
     /*******************************************************
-     *MÃ©todo para eliminar todos los elementos del conjunto*
+     *Método para eliminar todos los elementos del conjunto*
      *******************************************************/
     public void Vaciar();
     /*********************************************

@@ -18,12 +18,17 @@ public class MainTienda {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+    	/****************************************
+    	 * Declaramos un objeto de tipo Scanner *
+    	 * para poder ingresar por consola los  *
+    	 * datos de cada producto o las opciones*
+    	 * requeridas                           *
+    	 ****************************************/
     	Scanner lector = new Scanner(System.in);
-    	int op,nProd,count;
-    	count=0;
+    	int op,nProd;//Declaramos las variables necesarias
     	System.out.println("Ingrese la cantidad de productos para esta tienda");
-    	nProd=lector.nextInt();
-    	Producto tienda = new Producto(nProd);
+    	nProd=lector.nextInt();//Leemos el numero de productos para la tienda
+    	Producto tienda = new Producto(nProd);//creamos un vertor de produsctos para la tienda
     	do {
     		System.out.println("Estimado usuario que desea hacer?");
         	System.out.println("1.- Para ingresar productos");
@@ -37,7 +42,13 @@ public class MainTienda {
 				Productos p1 = new Productos();
 				p1.LeerData();
 				if(tienda.Agregar(p1)) {System.out.println("Producto agregado correctamente");};
-				
+			break;
+			case 2:
+			break;
+			case 3:
+			break;
+			case 4:
+				tienda.Imprimir();
 			break;
 			}
 		} while (op>0 && op<5);

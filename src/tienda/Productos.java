@@ -14,7 +14,9 @@ public class Productos {
         this.nombre = nombre;
         this.cant = cant;
     }
-
+    /*******************
+     * Métodos Setters *
+     *******************/
     public void setCodigo(String codigo) {
         this.codigo = codigo;
     }
@@ -26,7 +28,9 @@ public class Productos {
     public void setCant(int cant) {
         this.cant = cant;
     }
-
+    /*******************
+     * Métodos Getters *
+     *******************/
     public String getCodigo() {
         return codigo;
     }
@@ -38,9 +42,15 @@ public class Productos {
     public int getCant() {
         return cant;
     }
+    /***********************************************
+     * Método para imprimir los datos del productos*
+     ***********************************************/
     public String toString() {
     	return getCodigo()+" "+getNombre()+" "+getCant();
     }
+    /******************************************
+     * Método para leer los datos del producto*
+     ******************************************/
     public void LeerData() {
     	String cod,nomb;
     	int cant;

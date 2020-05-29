@@ -30,7 +30,7 @@ public class Producto implements InterfaceProducto{
         }
     }
     /*********************************************
-     *Metodo para imprimir los datos que contiene*
+     *Método para imprimir los datos que contiene*
      *los productos                              *
      *********************************************/
     public void Imprimir(){
