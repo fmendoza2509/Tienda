@@ -16,7 +16,11 @@ public class MainTienda {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+    	int op,nProd;
+        Productos p1 = new Productos();
+        p1.LeerData();
+        Producto tienda = new Producto(2);
+        if(tienda.Agregar(p1)==true) {System.out.println("Producto agregado correctamente");}
     }
 
 }
