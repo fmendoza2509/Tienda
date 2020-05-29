@@ -21,7 +21,7 @@ public interface InterfaceProducto {
      **********************************/
     public boolean Eliminar(Object elemento);
     /********************************
-     *MÃ©todo para editar un elemento*
+     *Método para editar un elemento*
      ********************************/
     public boolean Editar(Object elemento);
 }

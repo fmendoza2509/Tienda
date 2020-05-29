@@ -35,5 +35,10 @@ public class Tienda {
     public int getCant() {
         return cant;
     }
-    
+    public String toString() {
+    	return getCodigo()+getNombre()+getCant();
+    }
+    public void LeerData() {
+    	
+    }
 }
