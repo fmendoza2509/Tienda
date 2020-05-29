@@ -39,7 +39,7 @@ public class Productos {
         return cant;
     }
     public String toString() {
-    	return getCodigo()+getNombre()+getCant();
+    	return getCodigo()+" "+getNombre()+" "+getCant();
     }
     public void LeerData() {
     	String cod,nomb;
